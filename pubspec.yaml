@@ -1,0 +1,36 @@
+name: presensi_school
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  dio: ^5.7.0
+  flutter_dotenv: ^5.2.1
+  flutter_launcher_icons: ^0.14.1
+  flutter_secure_storage: ^9.2.2
+  pretty_dio_logger: ^1.4.0
+  google_fonts: 6.2.1
+  fl_chart: 0.69.2
+  flutter_map: ^5.0.0
+  latlong2: ^0.9.1
+  geolocator: ^12.0.0
+  permission_handler: 11.3.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^4.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - .env
+    - assets/images/
+    - assets/icon/
+  uses-material-design: true
+
